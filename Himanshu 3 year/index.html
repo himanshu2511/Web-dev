@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: bisque;
+    }
+
+    .table {
+        text-align: center;
+        top: 2%;
+        margin: 4px;
+        height: 450px;
+        width: 100%;
+        border: 2px solid;
+        background-color: pink;
+
+    }
+
+    .nav {
+        margin: 2px;
+        top: 1%;
+        border-radius: 5px;
+        border: 2px solid;
+    }
+
+    td {
+        margin: 2px 10px 2px 10px;
+        padding: 10px;
+
+
+    }
+
+    a:hover {
+        background-color: red;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    tbl{
+        background-color: black;
+    }
+    
+</style>
+
+<body>
+    <header>
+        <table width="100%" class="nav">
+            <tr>
+                <td><a href="">Home</a></td>
+                <td><a href="#About">About</a></td>
+                <td><a href="#Services">Services</a></td>
+                <td><a href="#gallery">Gallery</a></td>
+                <td><a href="#Contact">Contact us</a></td>
+            </tr>
+        </table>
+    </header>
+    <section class="table" id="About">
+        <h1>About us</h1>
+        <table>
+
+        </table>
+    </section>
+    <section class="table" id="Services">
+        <h1>Our Service</h1>
+        <table>
+
+        </table>
+    </section>
+    <section class="table"  id="gallery">
+        <h1>Gallery</h1>
+        <table border="1" class="tbl">
+            <tr >
+                <td><img src="Himanshu.jpg" alt="" ></td>
+                <td><img src="Himanshu12.jpg" alt="" ></td>
+                <td><img src="Himanshu13.jpg" alt="" ></td>
+                <td><img src="Himanshu14.jpg" alt="" ></td>
+            </tr>
+            <tr>
+                
+                <td><img src="Himanshu16.jpg" alt="" ></td>
+                <td><img src="Himanshu17.jpg" alt="" ></td>
+                <td><img src="Himanshu18.jpg" alt="" ></td>
+                <td><img src="Himanshu12.jpg" alt="" ></td>
+            </tr>
+
+        </table>
+    </section>
+
+    <section class="table" id="Contact">
+        <table border="1px" align="center">
+            <h1>Registration From</h1>
+                <tr>
+                    <td><label for="First">First Name</label> </td>
+                    <td><input type="text" id="First" placeholder="Enter your First Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="Last">Last Name</label> </td>
+                    <td><input type="text" id="Last" placeholder="Enter your Last Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="Phone">Phone number</label> </td>
+                    <td><input type="number" id="Phone" placeholder="Enter your Phone number"></td>
+                </tr>
+                <tr>
+                    <td><label for="Adhaar">Adhaar number</label> </td>
+                    <td><input type="password" id="Adhaar" placeholder="Enter your Adhaar Number"></td>
+                </tr>
+                <tr>
+                    <td><label for="Email">Email</label> </td>
+                    <td><input type="Email" id="Email" placeholder="Enter your Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Gender</label></td>
+                    <td><input type="radio" name="" id="Gender" >Male <input type="radio" name="" id="Gender" >Female</td>
+                </tr>
+                <tr>
+                    <td><input type="Reset"></td>
+                    <td><input type="Submit"></td>
+                </tr>
+        </table>
+    </section>
+
+
+</body>
+
+</html>
