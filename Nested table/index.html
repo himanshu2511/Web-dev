@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    *{
+        background: url(https://source.unsplash.com/random/gym);
+        
+    }
+    h1{
+        text-align: center;
+    }
+    .tbl {
+        border: 2px black solid;
+    }
+</style>
+
+<body>
+    <h1>Nested table</h1>
+    <table class="tbl">
+        <thead>
+            <tr>
+                <td class="tbl">Header Row 1</td>
+                <td class="tbl">Header Row 2</td>
+                <td class="tbl">Header Row 3</td>
+                <td class="tbl">Header Row 4</td>
+            </tr>
+        </thead>
+        <tbody class="tbl">
+            <tr>
+                <td class="tbl">Row 2-item 1</td>
+                <td class="tbl">Row 2-item 2</td>
+                <td class="tbl">
+                    <table border="1px">
+                        <tr>Row 2 Nested</tr>
+                        <tr>
+                            <th>Header 1</th>
+                            <td>Item 1</td>
+                        </tr>
+                        <tr>
+                            <th>Header 2</th>
+                            <td>Item 2</td>
+                        </tr>
+                        <tr>
+                            <th>Header 3</th>
+                            <td>Item 3</td>
+                        </tr>
+                        <tr>
+                            <th>Header 4</th>
+                            <td>Item 4</td>
+                        </tr>
+
+
+
+
+                    </table>
+                </td>
+                <td class="tbl">Row 2-item 4 </td>
+            </tr>
+            <tr >
+                <td class="tbl">
+                    <table border="1px" >
+                        <tr>Row 3-item 1</tr>
+                        <tr>
+                            <th>Header 1</th>
+                            <td>Item 1</td>
+                        </tr>
+                        <tr>
+                            <th>Header 2</th>
+                            <td>Item 2</td>
+                        </tr>
+                        <tr>
+                            <th>Header 3</th>
+                            <td>Item 3</td>
+                        </tr>
+                        <tr>
+                            <th>Header 4</th>
+                            <td>Item 4</td>
+                        </tr>
+                    </table>        
+                <td class="tbl">Row 3-item 2</td>
+                <td class="tbl">Row 3-item 3</td>
+                <td class="tbl">Row 3-item 4</td
+            </tr>
+            <tr>
+                <td class="tbl">Row 4-item 1</td>
+                <td class="tbl">Row 4-item 2</td>
+                <td class="tbl" colspan="2">Row 4-item 3</td>
+            </tr>
+            <tr>
+                <td class="tbl" colspan="4">Last row of outer table</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>
